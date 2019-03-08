@@ -4,9 +4,22 @@ A flexible LinearLayout that automatically updates its own orientation based on 
 IMG
 
 # Setup
-```java
-implementation ''
+
+```gradle
+allprojects {
+    repositories {
+        maven { url "https://jitpack.io" }
+    }
+}
 ```
+and:
+
+```gradle
+dependencies {
+	        implementation 'com.github.FancyPixel:flexorientationlayout:0.1.0'
+	}
+```
+
 
 # Usages
 Use the FlexOrientationLayout as a standard LinearLayout.
@@ -34,7 +47,7 @@ Use the FlexOrientationLayout as a standard LinearLayout.
 
 #### Options
 
-By default the FlexOrientationLayout will update its own orientation based on the device orientatio.
+By default the FlexOrientationLayout will update its own orientation based on the device orientation.
 
 | Device                        | FlexOrientationLayout     |
 | ----------------------------- | ------------------------- |
@@ -55,6 +68,7 @@ You could reverse this behavior by setting the attibute `reversed_orientation`.
 
 flex_orientation_layout.useReversedOrientation(true)
 
+
 ```
 
 # License
@@ -62,7 +76,7 @@ flex_orientation_layout.useReversedOrientation(true)
     MIT License
 
     Copyright (c) 2019
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
