@@ -1,4 +1,4 @@
-package it.fancypixel.flexlayout
+package it.fancypixel.flexexample
 
 import org.junit.Test
 

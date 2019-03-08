@@ -1,4 +1,4 @@
-package it.fancypixel.flexlayout
+package it.fancypixel.flexexample
 
 import androidx.test.InstrumentationRegistry
 import androidx.test.runner.AndroidJUnit4

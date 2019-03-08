@@ -10,25 +10,25 @@
     <it.fancypixel.flexorientationlayout.FlexOrientationLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:reversed_orientation="true"
             android:id="@+id/flex_orientation_layout"
+            android:padding="8dp"
             android:orientation="vertical">
             <TextView
                     android:layout_width="match_parent"
                     android:layout_weight="1"
+                    android:background="@android:color/darker_gray"
+                    android:layout_margin="8dp"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="CIAO"/>
+                    android:text="Hello"/>
             <TextView
                     android:layout_width="match_parent"
                     android:layout_weight="1"
+                    android:background="@android:color/darker_gray"
+                    android:layout_margin="8dp"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="Hello World!"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintRight_toRightOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"/>
+                    android:text="World!"/>
     </it.fancypixel.flexorientationlayout.FlexOrientationLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

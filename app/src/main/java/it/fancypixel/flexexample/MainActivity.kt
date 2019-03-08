@@ -1,4 +1,4 @@
-package it.fancypixel.flexlayout
+package it.fancypixel.flexexample
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
