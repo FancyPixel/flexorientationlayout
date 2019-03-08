@@ -1,7 +1,8 @@
 # Intro
 A flexible LinearLayout that automatically updates its own orientation based on the device orientation.
 
-![Portrait](images/portrait.png =200x) ![Landscape](images/landscape.png =340x)
+<img src="images/portrait.png" width="200">
+<img src="images/landscape.png" width="340">
 
 # Setup
 Add it to your build.gradle with:
