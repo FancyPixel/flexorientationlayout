@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlexOrientationLayout">
+        <attr name="reversed_orientation" format="boolean" />
+    </declare-styleable>
+</resources>
